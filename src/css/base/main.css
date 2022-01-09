@@ -90,6 +90,7 @@ p {
   width: 100%;
   background-image: url("../../../public/img/Acceuil.webp");
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .entete {
