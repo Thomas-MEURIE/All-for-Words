@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,9 +16,10 @@
     <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
-    <header class="header_accueil">
+    <header class="header_main">
         <div class="header__start">
             <div class="menu_button" x-on:click='openmenu();'><img src="./public/icon/interface/icon_menu.svg" alt="Menu" width="32" height="auto"></div>
+            <a class="logo" href="index.html"><img src="./public/icon/logo_allforwords.svg" alt="Logo de All for Words"></a>
         </div>
         <nav class="menu">
             <div class="menu_top">
@@ -59,42 +60,26 @@
         </nav>
     </header>
 
-    <div>
-        <div class="entete_acceuil">
-            <img src="./public/icon/logo_allforwords.svg" alt="Logo de All for Words">
-            <h1>Bienvenue dans une lecture pour tous</h1>
-        </div>
-
-        <div class="article_accueil">
-            <h3>Lisez nos articles</h3>
-            <a class="accueil_element" href="femmes_et_argent.html">
-                <img class="img_accueil" src="./public/img/femmeretrait_accueil.webp" alt="">
-                <img class="folder_accueil" src="./public/icon/interface/button_folder.svg" alt="">
-                <h5>Les femmes et leur argent</h5>
-                <p>Les femmes ne pouvaient pas gérer leur argent avant...</p>
-            </a>
-            <a class="accueil_element" href="emma_watson.html">
-                <img class="img_accueil" src="./public/img/emma_watson_accueil.webp" alt="">
-                <img class="folder_accueil" src="./public/icon/interface/button_folder.svg" alt="">
-                <h5>Les femmes et leur argent</h5>
-                <p>Emma Watson est connue pour avoir joué...</p>
-            </a>
-            <a class="accueil_element" href="femmes_et_argent.html">
-                <img class="img_accueil" src="./public/img/femmeretrait_accueil.webp" alt="">
-                <img class="folder_accueil" src="./public/icon/interface/button_folder.svg" alt="">
-                <h5>Les femmes et leur argent</h5>
-                <p>Les femmes ne pouvaient pas gérer leur argent avant...</p>
-            </a>
-        </div>
-            <h3>Découvrez plus d’articles avec :</h3>
-            <a href="autres_projets.html" class="projet_accueil">
-                <div class="projet_button_accueil">
-                    <p class="">Autres projets</p>
-                    <img src="./public/img/iut_mmi_montbe.webp" alt="">
-                </div>
-            </a>
-        <div>
-
+    <div class="main_page">
+        <img src="./public/img/femmeretrait.webp" alt="Une femme devant un distributeur de billets">
+        <h1>Les femmes et leur argent</h1>
+        <h4>Les femmes ne pouvaient pas gérer leur argent avant un bon moment. En effet, elles ont dû attendre <a href="frise.html">certaines dates</a> pour le gérer sans leurs maris ou leurs pères.</h4>
+        <h3>La gérance de l'argent</h3>
+        <p>Le début de l'indépendance financière des femmes commence seulement en 1907. En effet, c'est à partir de cette année que les femmes récupèrent leur salaire. Avant cela, c'était leurs maris qui les récupéraient. En cette même année, les femmes peuvent maintenant siéger au <a href="https://www.service-public.fr/particuliers/vosdroits/F2360">conseil des prud'hommes</a>. Il s'agit d'un conseil visant à régler des conflits entre les employeurs et les salariés.<br>
+            Pour continuer, en 1965, elles ont la possibilité d'ouvrir un compte bancaire à elles, sans l'autorisation de leurs conjoints. Elles peuvent donc gérer leur propre argent sans quelqu'un derrière et sans avoir à le partager.</p>
+        <h3>L'éducation chez les femmes</h3>
+        <p>En 1938, elles peuvent enfin aller à l'université, obtenir une pièce d'identité (carte, passeport, etc..).<br>
+            Ensuite, dés 1967, les femmes peuvent enfin bénéficier de la bourse de Paris. Cela fut bénéfique pour les femmes avec peu de ressources pour pouvoir étudier dans les grandes écoles.</p>
+        <h3>Les femmes et les entreprises</h3>
+        <p>En 1983, la loi Roudy est mis en place, elle permet aux femmes d'avoir l'égalité professionnelle avec les hommes.<br>
+            L'État français publiera en 2012 un décret sur la mise en œuvre des obligations des entreprise pour cet égalité professionnelle. Les entreprises qui ne respectent pas cette égalité sont maintenant plus sévèrement punies.<br>
+            Enfin en 2013, l’accord national interprofessionnel souhaite l’égalité professionnelle aussi bien dans la qualité de vie au travail que dans le salaire, ce qui permet aux femmes d'être aussi bien entendu que les hommes à leur travail.<br>
+            <br>
+            Pour conclure, les femmes ont donc une constante amélioration dans leurs vie financière, passant par le travail, les études puis la gérance. Mais il reste beaucoup d'inégalité hommes-femmes, il reste plein d'entreprises qui ne respecte pas cette égalité dans le monde, et certains pays ferment l'œil sur ceci.</p>
+        <p class="autor">Thomas MEURIE, le 10 octobre 2021</p>
+        <div class="switch_article">
+            <a href="" class="switch_previous"><p></p></a>
+            <a href="emma_watson.html" class="switch_next"><p>Article >><br>suivant</p></a>
         </div>
     </div>
 

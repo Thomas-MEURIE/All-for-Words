@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,9 +16,10 @@
     <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
-    <header class="header_accueil">
+    <header class="header_main">
         <div class="header__start">
             <div class="menu_button" x-on:click='openmenu();'><img src="./public/icon/interface/icon_menu.svg" alt="Menu" width="32" height="auto"></div>
+            <a class="logo" href="index.html"><img src="./public/icon/logo_allforwords.svg" alt="Logo de All for Words"></a>
         </div>
         <nav class="menu">
             <div class="menu_top">
@@ -59,42 +60,23 @@
         </nav>
     </header>
 
-    <div>
-        <div class="entete_acceuil">
-            <img src="./public/icon/logo_allforwords.svg" alt="Logo de All for Words">
-            <h1>Bienvenue dans une lecture pour tous</h1>
+    <div class="main_page">
+        <h1>Galerie</h1>
+        <div class="img_galerie">
+            <img src="./public/img/manifestation.webp" alt="Manifetation pour les “Nouvelles féministes”">
+            <p class="text_cetered">Manifetation pour les “Nouvelles féministes”</p>
         </div>
-
-        <div class="article_accueil">
-            <h3>Lisez nos articles</h3>
-            <a class="accueil_element" href="femmes_et_argent.html">
-                <img class="img_accueil" src="./public/img/femmeretrait_accueil.webp" alt="">
-                <img class="folder_accueil" src="./public/icon/interface/button_folder.svg" alt="">
-                <h5>Les femmes et leur argent</h5>
-                <p>Les femmes ne pouvaient pas gérer leur argent avant...</p>
-            </a>
-            <a class="accueil_element" href="emma_watson.html">
-                <img class="img_accueil" src="./public/img/emma_watson_accueil.webp" alt="">
-                <img class="folder_accueil" src="./public/icon/interface/button_folder.svg" alt="">
-                <h5>Les femmes et leur argent</h5>
-                <p>Emma Watson est connue pour avoir joué...</p>
-            </a>
-            <a class="accueil_element" href="femmes_et_argent.html">
-                <img class="img_accueil" src="./public/img/femmeretrait_accueil.webp" alt="">
-                <img class="folder_accueil" src="./public/icon/interface/button_folder.svg" alt="">
-                <h5>Les femmes et leur argent</h5>
-                <p>Les femmes ne pouvaient pas gérer leur argent avant...</p>
-            </a>
+        <div class="img_galerie">
+            <img src="./public/img/discourt_emma.webp" alt="Emma Watson à l’ONU">
+            <p class="text_cetered">Emma Watson à l’ONU</p>
         </div>
-            <h3>Découvrez plus d’articles avec :</h3>
-            <a href="autres_projets.html" class="projet_accueil">
-                <div class="projet_button_accueil">
-                    <p class="">Autres projets</p>
-                    <img src="./public/img/iut_mmi_montbe.webp" alt="">
-                </div>
-            </a>
-        <div>
-
+        <div class="img_galerie">
+            <img src="./public/img/beyonce.webp" alt="Citation de Beyoncé pour les femmes">
+            <p class="text_cetered">Citation de Beyoncé pour les femmes</p>
+        </div>
+        <div class="img_galerie">
+            <img src="./public/img/encyclo.webp" alt="L’Encyclopédie expose peu le problème des femmes">
+            <p class="text_cetered">L’Encyclopédie expose peu le problème des femmes</p>
         </div>
     </div>
 

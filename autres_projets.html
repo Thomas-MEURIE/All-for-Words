@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,9 +16,10 @@
     <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
-    <header class="header_accueil">
+    <header class="header_main">
         <div class="header__start">
             <div class="menu_button" x-on:click='openmenu();'><img src="./public/icon/interface/icon_menu.svg" alt="Menu" width="32" height="auto"></div>
+            <a class="logo" href="index.html"><img src="./public/icon/logo_allforwords.svg" alt="Logo de All for Words"></a>
         </div>
         <nav class="menu">
             <div class="menu_top">
@@ -59,43 +60,50 @@
         </nav>
     </header>
 
-    <div>
-        <div class="entete_acceuil">
-            <img src="./public/icon/logo_allforwords.svg" alt="Logo de All for Words">
-            <h1>Bienvenue dans une lecture pour tous</h1>
-        </div>
-
-        <div class="article_accueil">
-            <h3>Lisez nos articles</h3>
-            <a class="accueil_element" href="femmes_et_argent.html">
-                <img class="img_accueil" src="./public/img/femmeretrait_accueil.webp" alt="">
-                <img class="folder_accueil" src="./public/icon/interface/button_folder.svg" alt="">
-                <h5>Les femmes et leur argent</h5>
-                <p>Les femmes ne pouvaient pas gérer leur argent avant...</p>
-            </a>
-            <a class="accueil_element" href="emma_watson.html">
-                <img class="img_accueil" src="./public/img/emma_watson_accueil.webp" alt="">
-                <img class="folder_accueil" src="./public/icon/interface/button_folder.svg" alt="">
-                <h5>Les femmes et leur argent</h5>
-                <p>Emma Watson est connue pour avoir joué...</p>
-            </a>
-            <a class="accueil_element" href="femmes_et_argent.html">
-                <img class="img_accueil" src="./public/img/femmeretrait_accueil.webp" alt="">
-                <img class="folder_accueil" src="./public/icon/interface/button_folder.svg" alt="">
-                <h5>Les femmes et leur argent</h5>
-                <p>Les femmes ne pouvaient pas gérer leur argent avant...</p>
-            </a>
-        </div>
-            <h3>Découvrez plus d’articles avec :</h3>
-            <a href="autres_projets.html" class="projet_accueil">
-                <div class="projet_button_accueil">
-                    <p class="">Autres projets</p>
-                    <img src="./public/img/iut_mmi_montbe.webp" alt="">
-                </div>
-            </a>
-        <div>
-
-        </div>
+    <div class="main_page">
+        <h1>Autres projets</h1>
+        <a href="https://monturet.femin-in.eu/" class="projet_link">
+            <div class="projet_button">
+                <h5>Femin'In</h5>
+                <p class="text_cetered">par Matthieu MONTURET</p>
+            </div>
+        </a>
+        <a href="https://feminschool.lucasmoramarco.fr/" class="projet_link">
+            <div class="projet_button">
+                <h5>FeminSchool</h5>
+                <p class="text_cetered">par Lucas MORAMARCO</p>
+            </div>
+        </a>
+        <a href="https://lefeminismeatraverslhistoire.mercier-maxime.com/" class="projet_link">
+            <div class="projet_button">
+                <h5>Le féminisme à travers l'histoire</h5>
+                <p class="text_cetered">par Maxime MERCIER</p>
+            </div>
+        </a>
+        <a href="http://mobilizationforafghanwomen.ilavaine.fr/" class="projet_link">
+            <div class="projet_button">
+                <h5>Mobilization for afghan women</h5>
+                <p class="text_cetered">par Iris LAVAINE</p>
+            </div>
+        </a>
+        <a href="https://feminorway.andreaslopez.fr/" class="projet_link">
+            <div class="projet_button">
+                <h5>FemiNorway</h5>
+                <p class="text_cetered">par Andreas LOPEZ</p>
+            </div>
+        </a>
+        <a href="http://femi-mutilate.rmenegain.fr/" class="projet_link">
+            <div class="projet_button">
+                <h5>Femi-mutilate</h5>
+                <p class="text_cetered">par Rose MENEGAIN</p>
+            </div>
+        </a>
+        <a href="http://motssurlefeminisme.louplobato.fr/" class="projet_link">
+            <div class="projet_button">
+                <h5>Mots sur le Féminisme</h5>
+                <p class="text_cetered">par Loup LOBATO</p>
+            </div>
+        </a>
     </div>
 
     <footer>

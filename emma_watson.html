@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,9 +16,10 @@
     <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
-    <header class="header_accueil">
+    <header class="header_main">
         <div class="header__start">
             <div class="menu_button" x-on:click='openmenu();'><img src="./public/icon/interface/icon_menu.svg" alt="Menu" width="32" height="auto"></div>
+            <a class="logo" href="index.html"><img src="./public/icon/logo_allforwords.svg" alt="Logo de All for Words"></a>
         </div>
         <nav class="menu">
             <div class="menu_top">
@@ -59,42 +60,21 @@
         </nav>
     </header>
 
-    <div>
-        <div class="entete_acceuil">
-            <img src="./public/icon/logo_allforwords.svg" alt="Logo de All for Words">
-            <h1>Bienvenue dans une lecture pour tous</h1>
-        </div>
-
-        <div class="article_accueil">
-            <h3>Lisez nos articles</h3>
-            <a class="accueil_element" href="femmes_et_argent.html">
-                <img class="img_accueil" src="./public/img/femmeretrait_accueil.webp" alt="">
-                <img class="folder_accueil" src="./public/icon/interface/button_folder.svg" alt="">
-                <h5>Les femmes et leur argent</h5>
-                <p>Les femmes ne pouvaient pas gérer leur argent avant...</p>
-            </a>
-            <a class="accueil_element" href="emma_watson.html">
-                <img class="img_accueil" src="./public/img/emma_watson_accueil.webp" alt="">
-                <img class="folder_accueil" src="./public/icon/interface/button_folder.svg" alt="">
-                <h5>Les femmes et leur argent</h5>
-                <p>Emma Watson est connue pour avoir joué...</p>
-            </a>
-            <a class="accueil_element" href="femmes_et_argent.html">
-                <img class="img_accueil" src="./public/img/femmeretrait_accueil.webp" alt="">
-                <img class="folder_accueil" src="./public/icon/interface/button_folder.svg" alt="">
-                <h5>Les femmes et leur argent</h5>
-                <p>Les femmes ne pouvaient pas gérer leur argent avant...</p>
-            </a>
-        </div>
-            <h3>Découvrez plus d’articles avec :</h3>
-            <a href="autres_projets.html" class="projet_accueil">
-                <div class="projet_button_accueil">
-                    <p class="">Autres projets</p>
-                    <img src="./public/img/iut_mmi_montbe.webp" alt="">
-                </div>
-            </a>
-        <div>
-
+    <div class="main_page">
+        <img src="./public/img/emma_watson.webp" alt="Emma Watson à l'ONU">
+        <h1>Emma Watson agit pour le féminisme</h1>
+        <h4>Emma Watson est connue pour avoir joué Hermione Granger dans la saga de film Harry Potter. Mais à l’heure actuelle, elle se bat pour le droit des femmes dans le monde et c’est comme ça qu’elle de fait connaitre.</h4>
+        <h3>La célébrité d'Emma Watson ?</h3>
+        <p>Emma Watson est une actrice britannique née le 15 avril 1990 à Paris. Elle devient actrice à l'âge de 10 ans, dans le film Harry Potter. Sa célébrité brusque devient handicapante pour elle et son école <a href="https://fr.wikipedia.org/wiki/Dragon_School">Dragon School</a> doit implémenter des règles pour la laisser en tranquille. Elle a aussi joué dans d'autre films comme La Belle et la Bête, ou encore Les Filles du docteur March. En parallèle de son travail, elle étudie dans le domaine de la littérature anglaise, jusqu'à obtention de son diplôme en mai 2014. Elle annoncera cette même année laisser temporairement de côté sa carrière d'actrice pour se concentrer sur plusieurs projets, notamment sur le féminisme.</p>
+        <h3>Son action par sa célébrité</h3>
+        <p>Emma Watson s'implique dans le féminisme en partageant ce qu'elle pense à sa communauté. Elle ouvre donc un club de lecture le 8 janvier 2016 nommé Our Shared Shelf, sur la plateforme <a href="https://fr.wikipedia.org/wiki/Goodreads">Goodreads</a>. Elle y a attiré d'autre personnalité comme e Gloria Steinem, Sophia Bush, Abby Wambach ou Kate Voegele. Son club atteint les 96 000 membres en février 2016. Mais en janvier 2020, elle annonce qu'elle va s'écarter de son club, mais qu'elle reste impliquée.</p>
+        <img src="./public/img/our_shared_shelf.webp" alt="Logo d'Our Shared Shelf">
+        <h3>Son action par ses activités</h3>
+        <p>L'<a href="https://fr.wikipedia.org/wiki/ONU_Femmes">ONU femmes</a> la nommera en juillet 2014 ambassadrice de bonne volonté. Suite à cela, elle prononcera en septembre un discours au siège des nation Unie visant à régler en priorité l'égalité homme-femme dans le monde. A son avis, le féminisme n'est pas un "man-hating" (haine des hommes), mais un chemin vers cette égalité souhaité. Lors de ce discours, elle paraît plutôt énervée. Elle dira un peu après qu'elle a reçu des menaces tentant à la dissuader de monter à la tribune, et que c'est la raison pour laquelle elle paraissait en colère.</p>
+        <p class="autor">Thomas MEURIE, le 19 octobre 2021</p>
+        <div class="switch_article">
+            <a href="femmes_et_argent.html" class="switch_previous"><p><< Article<br>précédent</p></a>
+            <a href="star_wars_feminisme.html" class="switch_next"><p>Article >><br>suivant</p></a>
         </div>
     </div>
 
