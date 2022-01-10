@@ -67,7 +67,20 @@
         <h1>À propos de moi</h1>
         <p>Je suis Thomas MEURIE, étudiant de 1ère année à l’Institut Universitaire Technologique des Métiers du Multimédia et de l’Internet (IUT MMI) de Montbéliard. Hors études, j’aime bien créer du contenu pour jeux vidéo, ou à partir de jeu vidéo.</p>
         <h1>Contact</h1>
-        
+
+        <form action="contact">
+            <input type="text" placeholder="Votre nom*">
+            <input type="email" placeholder="Votre E-mail*">
+            <input type="phone" placeholder="Votre N° de téléphone">
+            <select id='request_type' name='type' placeholder="Type de requête">
+                <option value='error'>Rapport d'erreur</option>
+                <option value='improv'>Amélioration</option>
+            </select>
+            <input class="contact_mess" type="text" placeholder="Message*">
+        </form>
+        <p class="contact_info">*Éléments obligatoires</p>
+        <button><p>Evoyer</p></button>
+
         <p>Vous pouvez aussi me contacter par :<br>
             E-Mail : thomas.meurie@edu.univ-fcomte.fr<br>
             Tel : 07 XX XX XX XX<br>
