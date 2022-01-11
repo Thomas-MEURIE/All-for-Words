@@ -12,7 +12,7 @@ figcaption {
   color: var(--gray-600);
 }
 
-.entete_acceuil img:first-child {
+.entete_accueil img:first-child {
   margin-top: 50px;
   width: 203px;
   height: auto;

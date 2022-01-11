@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+    <script src="https://animejs.com/lib/anime.min.js"></script>
+    <script src="../src/js/fonctions.js"></script>
+
+    <title>All for Words</title>
+    <link rel="shortcut icon" type="image/ico" href="../public/icon/favicon.ico"/>
+    <link rel="icon" href="../public/icon/favicon.ico">
+
+    <link rel="stylesheet" href="../src/css/style.css">
+</head>
+<body>
+    <header class="header_main">
+        <div class="header__start">
+            <div class="menu_button" x-on:click='openmenu();'><img src="../public/icon/interface/icon_menu.svg" alt="Menu" width="32" height="auto"></div>
+            <a class="logo" href="index.html"><img src="../public/icon/logo_allforwords.svg" alt="Logo de All for Words"></a>
+        </div>
+        <nav class="menu">
+            <div class="menu_top">
+                <div class="close_button" x-on:click='closemenu();'><img src="../public/icon/interface/icon_cross.svg" alt="Fermer le menu" width="32" height="auto"></div>
+                <a class="icon" href="index.html"><img src="../public/icon/icon_allforwords.svg" alt="Logo de All for Words"></a>
+                <div class="menu_lang_selec">
+                    <div class="menu_lang"><a href="../femmes_et_argent.html">
+                            <img src="../public/icon/interface/lang_fr.webp" alt="Français" width="33" height="auto">
+                            <p>FR</p>
+                    </a></div>
+                    <div class="menu_lang"><a href="">
+                            <img src="../public/icon/interface/lang_en.webp" alt="English" width="33" height="auto">
+                            <p>EN</p>
+                    </a></div>
+                </div>
+            </div>
+            <ul>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="index.html"><p>Acceuil</p></a></li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_category">
+                    <p>Articles</p>
+                    <ul class="menu_category_list">
+                        <li class="menu_sous_element"><a href=""><p>● Les femmes et leur argent</p></a></li>
+                        <li class="menu_sous_element"><a href="emma_watson.html"><p>● Emma Watson agit pour le féminisme</p></a></li>
+                        <li class="menu_sous_element"><a href="star_wars_feminism.html"><p>● Le féminisme dans Star Wars</p></a></li>
+                    </ul>
+                </li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="galery.html"><p>Galerie</p></a></li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="timeline.html"><p>Frise</p></a></li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="glosary.html"><p>Lexique</p></a></li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="other_projetcs.html"><p>Autres projets</p></a></li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="about_and_contact.html"><p>À propos/Contact</p></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main_page">
+        <img src="../public/img/femmeretrait.webp" alt="Une femme devant un distributeur de billets">
+        <h1>Les femmes et leur argent</h1>
+        <h4>Les femmes ne pouvaient pas gérer leur argent avant un bon moment. En effet, elles ont dû attendre <a href="timeline.html">certaines dates</a> pour le gérer sans leurs maris ou leurs pères.</h4>
+        <h3>La gérance de l'argent</h3>
+        <p>Le début de l'indépendance financière des femmes commence seulement en 1907. En effet, c'est à partir de cette année que les femmes récupèrent leur salaire. Avant cela, c'était leurs maris qui les récupéraient. En cette même année, les femmes peuvent maintenant siéger au <a href="https://www.service-public.fr/particuliers/vosdroits/F2360">conseil des prud'hommes</a>. Il s'agit d'un conseil visant à régler des conflits entre les employeurs et les salariés.<br>
+            Pour continuer, en 1965, elles ont la possibilité d'ouvrir un compte bancaire à elles, sans l'autorisation de leurs conjoints. Elles peuvent donc gérer leur propre argent sans quelqu'un derrière et sans avoir à le partager.</p>
+        <h3>L'éducation chez les femmes</h3>
+        <p>En 1938, elles peuvent enfin aller à l'université, obtenir une pièce d'identité (carte, passeport, etc..).<br>
+            Ensuite, dés 1967, les femmes peuvent enfin bénéficier de la bourse de Paris. Cela fut bénéfique pour les femmes avec peu de ressources pour pouvoir étudier dans les grandes écoles.</p>
+        <h3>Les femmes et les entreprises</h3>
+        <p>En 1983, la loi Roudy est mis en place, elle permet aux femmes d'avoir l'égalité professionnelle avec les hommes.<br>
+            L'État français publiera en 2012 un décret sur la mise en œuvre des obligations des entreprise pour cet égalité professionnelle. Les entreprises qui ne respectent pas cette égalité sont maintenant plus sévèrement punies.<br>
+            Enfin en 2013, l’accord national interprofessionnel souhaite l’égalité professionnelle aussi bien dans la qualité de vie au travail que dans le salaire, ce qui permet aux femmes d'être aussi bien entendu que les hommes à leur travail.<br>
+            <br>
+            Pour conclure, les femmes ont donc une constante amélioration dans leurs vie financière, passant par le travail, les études puis la gérance. Mais il reste beaucoup d'inégalité hommes-femmes, il reste plein d'entreprises qui ne respecte pas cette égalité dans le monde, et certains pays ferment l'œil sur ceci.</p>
+        <p class="autor">Thomas MEURIE, le 10 octobre 2021</p>
+        <div class="switch_article">
+            <a href="" class="switch_previous"><p></p></a>
+            <a href="emma_watson.html" class="switch_next"><p>Article >><br>suivant</p></a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer_text">
+            <a href="about_and_contact.html"><p>À propos/Contact</p></a>
+            <p>Ce site a été réalisé dans le cadre d’un projet universitaire</p>
+        </div>
+        <div class="footer_logo">
+            <img class="footer_logo_afw" src="../public/icon/logo_allforwords.svg" alt="Logo de All for Words">
+            <a href="http://mmimontbeliard.com/"><img src="../public/icon/icon_MMI.webp" alt="Lien vers l'IUT MMI"></a>
+        </div>
+    </footer>
+</body>
+</html>

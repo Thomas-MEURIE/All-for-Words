@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+    <script src="https://animejs.com/lib/anime.min.js"></script>
+    <script src="../src/js/fonctions.js"></script>
+
+    <title>All for Words</title>
+    <link rel="shortcut icon" type="image/ico" href="../public/icon/favicon.ico"/>
+    <link rel="icon" href="../public/icon/favicon.ico">
+
+    <link rel="stylesheet" href="../src/css/style.css">
+</head>
+<body>
+    <header class="header_accueil">
+        <div class="header__start">
+            <div class="menu_button" x-on:click='openmenu();'><img src="../public/icon/interface/icon_menu.svg" alt="Menu" width="32" height="auto"></div>
+        </div>
+        <nav class="menu">
+            <div class="menu_top">
+                <div class="close_button" x-on:click='closemenu();'><img src="../public/icon/interface/icon_cross.svg" alt="Fermer le menu" width="32" height="auto"></div>
+                <a class="icon" href=""><img src="../public/icon/icon_allforwords.svg" alt="Logo de All for Words"></a>
+                <div class="menu_lang_selec">
+                    <div class="menu_lang"><a href="../index.html">
+                            <img src="../public/icon/interface/lang_fr.webp" alt="Français" width="33" height="auto">
+                            <p>FR</p>
+                    </a></div>
+                    <div class="menu_lang"><a href="">
+                            <img src="../public/icon/interface/lang_en.webp" alt="English" width="33" height="auto">
+                            <p>EN</p>
+                    </a></div>
+                </div>
+            </div>
+            <ul>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href=""><p>Acceuil</p></a></li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_category">
+                    <p>Articles</p>
+                    <ul class="menu_category_list">
+                        <li class="menu_sous_element"><a href="women_and_money.html"><p>● Les femmes et leur argent</p></a></li>
+                        <li class="menu_sous_element"><a href="emma_watson.html"><p>● Emma Watson agit pour le féminisme</p></a></li>
+                        <li class="menu_sous_element"><a href="star_wars_feminism.html"><p>● Le féminisme dans Star Wars</p></a></li>
+                    </ul>
+                </li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="galery.html"><p>Galerie</p></a></li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="timeline.html"><p>Frise</p></a></li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="glosary.html"><p>Lexique</p></a></li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="other_projetcs.html"><p>Autres projets</p></a></li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="about_and_contact.html"><p>À propos/Contact</p></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <div class="entete_accueil">
+            <img src="../public/icon/logo_allforwords.svg" alt="Logo de All for Words">
+            <h1>Bienvenue dans une lecture pour tous</h1>
+        </div>
+
+        <div class="article_accueil">
+            <h3>Lisez nos articles</h3>
+            <a class="accueil_element" href="women_and_money.html">
+                <img class="img_accueil" src="../public/img/femmeretrait_accueil.webp" alt="">
+                <img class="folder_accueil" src="../public/icon/interface/button_folder.svg" alt="">
+                <h5>Les femmes et leur argent</h5>
+                <p>Les femmes ne pouvaient pas gérer leur argent avant...</p>
+            </a>
+            <a class="accueil_element" href="emma_watson.html">
+                <img class="img_accueil" src="../public/img/emma_watson_accueil.webp" alt="">
+                <img class="folder_accueil" src="../public/icon/interface/button_folder.svg" alt="">
+                <h5>Les femmes et leur argent</h5>
+                <p>Emma Watson est connue pour avoir joué...</p>
+            </a>
+            <a class="accueil_element" href="star_wars_feminism.html">
+                <img class="img_accueil" src="../public/img/star_wars_accueil.webp" alt="">
+                <img class="folder_accueil" src="../public/icon/interface/button_folder.svg" alt="">
+                <h5>STAR WARS ET LE FÉMINISME</h5>
+                <p>Star Wars est une saga de films très connu autour du monde, il s’agit...</p>
+            </a>
+        </div>
+            <h3>Découvrez plus d’articles avec :</h3>
+            <a href="other_projetcs.html" class="projet_accueil">
+                <div class="projet_button_accueil">
+                    <p class="">Autres projets</p>
+                    <img src="../public/img/iut_mmi_montbe.webp" alt="">
+                </div>
+            </a>
+        <div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer_text">
+            <a href="about_and_contact.html"><p>À propos/Contact</p></a>
+            <p>Ce site a été réalisé dans le cadre d’un projet universitaire</p>
+        </div>
+        <div class="footer_logo">
+            <img class="footer_logo_afw" src="../public/icon/logo_allforwords.svg" alt="Logo de All for Words">
+            <a href="http://mmimontbeliard.com/"><img src="../public/icon/icon_MMI.webp" alt="Lien vers l'IUT MMI"></a>
+        </div>
+    </footer>
+</body>
+</html>

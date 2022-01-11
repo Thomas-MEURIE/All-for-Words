@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+    <script src="https://animejs.com/lib/anime.min.js"></script>
+    <script src="../src/js/fonctions.js"></script>
+
+    <title>All for Words</title>
+    <link rel="shortcut icon" type="image/ico" href="../public/icon/favicon.ico"/>
+    <link rel="icon" href="../public/icon/favicon.ico">
+
+    <link rel="stylesheet" href="../src/css/style.css">
+</head>
+<body>
+    <header class="header_main">
+        <div class="header__start">
+            <div class="menu_button" x-on:click='openmenu();'><img src="../public/icon/interface/icon_menu.svg" alt="Menu" width="32" height="auto"></div>
+            <a class="logo" href="index.html"><img src="../public/icon/logo_allforwords.svg" alt="Logo de All for Words"></a>
+        </div>
+        <nav class="menu">
+            <div class="menu_top">
+                <div class="close_button" x-on:click='closemenu();'><img src="../public/icon/interface/icon_cross.svg" alt="Fermer le menu" width="32" height="auto"></div>
+                <a class="icon" href="index.html"><img src="../public/icon/icon_allforwords.svg" alt="Logo de All for Words"></a>
+                <div class="menu_lang_selec">
+                    <div class="menu_lang"><a href="../emma_watson.html">
+                            <img src="../public/icon/interface/lang_fr.webp" alt="Français" width="33" height="auto">
+                            <p>FR</p>
+                    </a></div>
+                    <div class="menu_lang"><a href="">
+                            <img src="../public/icon/interface/lang_en.webp" alt="English" width="33" height="auto">
+                            <p>EN</p>
+                    </a></div>
+                </div>
+            </div>
+            <ul>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="index.html"><p>Acceuil</p></a></li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_category">
+                    <p>Articles</p>
+                    <ul class="menu_category_list">
+                        <li class="menu_sous_element"><a href="women_and_money.html"><p>● Les femmes et leur argent</p></a></li>
+                        <li class="menu_sous_element"><a href=""><p>● Emma Watson agit pour le féminisme</p></a></li>
+                        <li class="menu_sous_element"><a href="star_wars_feminism.html"><p>● Le féminisme dans Star Wars</p></a></li>
+                    </ul>
+                </li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="galery.html"><p>Galerie</p></a></li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="timeline.html"><p>Frise</p></a></li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="glosary.html"><p>Lexique</p></a></li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="other_projetcs.html"><p>Autres projets</p></a></li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="about_and_contact.html"><p>À propos/Contact</p></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main_page">
+        <img src="../public/img/emma_watson.webp" alt="Emma Watson à l'ONU">
+        <h1>Emma Watson agit pour le féminisme</h1>
+        <h4>Emma Watson est connue pour avoir joué Hermione Granger dans la saga de film Harry Potter. Mais à l’heure actuelle, elle se bat pour le droit des femmes dans le monde et c’est comme ça qu’elle de fait connaitre.</h4>
+        <h3>La célébrité d'Emma Watson ?</h3>
+        <p>Emma Watson est une actrice britannique née le 15 avril 1990 à Paris. Elle devient actrice à l'âge de 10 ans, dans le film Harry Potter. Sa célébrité brusque devient handicapante pour elle et son école <a href="https://fr.wikipedia.org/wiki/Dragon_School">Dragon School</a> doit implémenter des règles pour la laisser en tranquille. Elle a aussi joué dans d'autre films comme La Belle et la Bête, ou encore Les Filles du docteur March. En parallèle de son travail, elle étudie dans le domaine de la littérature anglaise, jusqu'à obtention de son diplôme en mai 2014. Elle annoncera cette même année laisser temporairement de côté sa carrière d'actrice pour se concentrer sur plusieurs projets, notamment sur le féminisme.</p>
+        <h3>Son action par sa célébrité</h3>
+        <p>Emma Watson s'implique dans le féminisme en partageant ce qu'elle pense à sa communauté. Elle ouvre donc un club de lecture le 8 janvier 2016 nommé Our Shared Shelf, sur la plateforme <a href="https://fr.wikipedia.org/wiki/Goodreads">Goodreads</a>. Elle y a attiré d'autre personnalité comme e Gloria Steinem, Sophia Bush, Abby Wambach ou Kate Voegele. Son club atteint les 96 000 membres en février 2016. Mais en janvier 2020, elle annonce qu'elle va s'écarter de son club, mais qu'elle reste impliquée.</p>
+        <img src="../public/img/our_shared_shelf.webp" alt="Logo d'Our Shared Shelf">
+        <h3>Son action par ses activités</h3>
+        <p>L'<a href="https://fr.wikipedia.org/wiki/ONU_Femmes">ONU femmes</a> la nommera en juillet 2014 ambassadrice de bonne volonté. Suite à cela, elle prononcera en septembre un discours au siège des nation Unie visant à régler en priorité l'égalité homme-femme dans le monde. A son avis, le féminisme n'est pas un "man-hating" (haine des hommes), mais un chemin vers cette égalité souhaité. Lors de ce discours, elle paraît plutôt énervée. Elle dira un peu après qu'elle a reçu des menaces tentant à la dissuader de monter à la tribune, et que c'est la raison pour laquelle elle paraissait en colère.</p>
+        <p class="autor">Thomas MEURIE, le 19 octobre 2021</p>
+        <div class="switch_article">
+            <a href="women_and_money.html" class="switch_previous"><p><< Article<br>précédent</p></a>
+            <a href="star_wars_feminism.html" class="switch_next"><p>Article >><br>suivant</p></a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer_text">
+            <a href="about_and_contact.html"><p>À propos/Contact</p></a>
+            <p>Ce site a été réalisé dans le cadre d’un projet universitaire</p>
+        </div>
+        <div class="footer_logo">
+            <img class="footer_logo_afw" src="../public/icon/logo_allforwords.svg" alt="Logo de All for Words">
+            <a href="http://mmimontbeliard.com/"><img src="../public/icon/icon_MMI.webp" alt="Lien vers l'IUT MMI"></a>
+        </div>
+    </footer>
+</body>
+</html>

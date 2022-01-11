@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+    <script src="https://animejs.com/lib/anime.min.js"></script>
+    <script src="../src/js/fonctions.js"></script>
+
+    <title>All for Words</title>
+    <link rel="shortcut icon" type="image/ico" href="../public/icon/favicon.ico"/>
+    <link rel="icon" href="../public/icon/favicon.ico">
+
+    <link rel="stylesheet" href="../src/css/style.css">
+</head>
+<body>
+    <header class="header_main">
+        <div class="header__start">
+            <div class="menu_button" x-on:click='openmenu();'><img src="../public/icon/interface/icon_menu.svg" alt="Menu" width="32" height="auto"></div>
+            <a class="logo" href="index.html"><img src="../public/icon/logo_allforwords.svg" alt="Logo de All for Words"></a>
+        </div>
+        <nav class="menu">
+            <div class="menu_top">
+                <div class="close_button" x-on:click='closemenu();'><img src="../public/icon/interface/icon_cross.svg" alt="Fermer le menu" width="32" height="auto"></div>
+                <a class="icon" href="index.html"><img src="../public/icon/icon_allforwords.svg" alt="Logo de All for Words"></a>
+                <div class="menu_lang_selec">
+                    <div class="menu_lang"><a href="../frise.html">
+                            <img src="../public/icon/interface/lang_fr.webp" alt="Français" width="33" height="auto">
+                            <p>FR</p>
+                    </a></div>
+                    <div class="menu_lang"><a href="">
+                            <img src="../public/icon/interface/lang_en.webp" alt="English" width="33" height="auto">
+                            <p>EN</p>
+                    </a></div>
+                </div>
+            </div>
+            <ul>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="index.html"><p>Acceuil</p></a></li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_category">
+                    <p>Articles</p>
+                    <ul class="menu_category_list">
+                        <li class="menu_sous_element"><a href="women_and_money.html"><p>● Les femmes et leur argent</p></a></li>
+                        <li class="menu_sous_element"><a href="emma_watson.html"><p>● Emma Watson agit pour le féminisme</p></a></li>
+                        <li class="menu_sous_element"><a href="star_wars_feminism.html"><p>● Le féminisme dans Star Wars</p></a></li>
+                    </ul>
+                </li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="galery.html"><p>Galerie</p></a></li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href=""><p>Frise</p></a></li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="glosary.html"><p>Lexique</p></a></li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="other_projetcs.html"><p>Autres projets</p></a></li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="about_and_contact.html"><p>À propos/Contact</p></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main_page">
+        <h1>Frise</h1>
+        <img src="../public/img/frise.webp" alt="Frise chronologique avec des dates importantes chez les femmes">
+    </div>
+
+    <footer>
+        <div class="footer_text">
+            <a href="about_and_contact.html"><p>À propos/Contact</p></a>
+            <p>Ce site a été réalisé dans le cadre d’un projet universitaire</p>
+        </div>
+        <div class="footer_logo">
+            <img class="footer_logo_afw" src="../public/icon/logo_allforwords.svg" alt="Logo de All for Words">
+            <a href="http://mmimontbeliard.com/"><img src="../public/icon/icon_MMI.webp" alt="Lien vers l'IUT MMI"></a>
+        </div>
+    </footer>
+</body>
+</html>

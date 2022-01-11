@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+    <script src="https://animejs.com/lib/anime.min.js"></script>
+    <script src="../src/js/fonctions.js"></script>
+
+    <title>All for Words</title>
+    <link rel="shortcut icon" type="image/ico" href="../public/icon/favicon.ico"/>
+    <link rel="icon" href="../public/icon/favicon.ico">
+
+    <link rel="stylesheet" href="../src/css/style.css">
+</head>
+<body>
+    <header class="header_main">
+        <div class="header__start">
+            <div class="menu_button" x-on:click='openmenu();'><img src="../public/icon/interface/icon_menu.svg" alt="Menu" width="32" height="auto"></div>
+            <a class="logo" href="index.html"><img src="../public/icon/logo_allforwords.svg" alt="Logo de All for Words"></a>
+        </div>
+        <nav class="menu">
+            <div class="menu_top">
+                <div class="close_button" x-on:click='closemenu();'><img src="../public/icon/interface/icon_cross.svg" alt="Fermer le menu" width="32" height="auto"></div>
+                <a class="icon" href="index.html"><img src="../public/icon/icon_allforwords.svg" alt="Logo de All for Words"></a>
+                <div class="menu_lang_selec">
+                    <div class="menu_lang"><a href="../star_wars_feminisme.html">
+                            <img src="../public/icon/interface/lang_fr.webp" alt="Français" width="33" height="auto">
+                            <p>FR</p>
+                    </a></div>
+                    <div class="menu_lang"><a href="">
+                            <img src="../public/icon/interface/lang_en.webp" alt="English" width="33" height="auto">
+                            <p>EN</p>
+                    </a></div>
+                </div>
+            </div>
+            <ul>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="index.html"><p>Acceuil</p></a></li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_category">
+                    <p>Articles</p>
+                    <ul class="menu_category_list">
+                        <li class="menu_sous_element"><a href="women_and_money.html"><p>● Les femmes et leur argent</p></a></li>
+                        <li class="menu_sous_element"><a href="emma_watson.html"><p>● Emma Watson agit pour le féminisme</p></a></li>
+                        <li class="menu_sous_element"><a href=""><p>● Le féminisme dans Star Wars</p></a></li>
+                    </ul>
+                </li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="galery.html"><p>Galerie</p></a></li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="timeline.html"><p>Frise</p></a></li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="glosary.html"><p>Lexique</p></a></li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="other_projetcs.html"><p>Autres projets</p></a></li>
+                <div class="menu-btn__bar"></div>
+                <li class="menu_element"><a href="about_and_contact.html"><p>À propos/Contact</p></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main_page">
+        <img src="../public/img/star_wars.webp" alt="Première scène de Star Wars où l'on voit la princesse Leïa">
+        <h1>Star Wars et le féminisme</h1>
+        <h4>Star Wars est une saga de films très connu autour du monde, il s’agit de la saga la plus regardé de tous les temps. Elle a été créée par George Lucas, puis racheté en 2012 par Disney. L’histoire met en jeu des chevaliers appelés Jedis à maintenir l’équilibre dans leur galaxie.</h4>
+        <h3>Lors de la première trilogie</h3>
+        <p>Le premier film, l’épisode IV sort en 1977 dans le monde entier. La femme principale dans le film est la princesse Leia incarné par Carrie Fisher. La princesse est l’un des pionniers de la “Rébellion”. Elle dirige des opérations, elle se bats sur le terrain etc... Par cela, ce personnage ressort plein de trais de la femme et donne la preuve qu’elle peut se battre comme les hommes. Les armées occidentales ont commencé à admettre les femmes dans l’armée qu’à partir de 1970, donc à la sortie du film, cela fait 7 ans. Or ce n’était pas commun de voir des femmes dans l’armée. Leia montre que les femmes ont leur rôle à jouer dans la protection de leur pays.</p>
+        <h3>La prélogie</h3>
+        <p>On retrouve dans les films de 1999 à 2005 une nouvelle héroïne, montrant se battre aussi, mais elle est vu le plus souvent dans le domaine politique. En effet, elle débat sur la sécurité, les choix que la république galactique, présent dans la plupart des systèmes, doit faire.  Dans notre monde, on a dû attendre 2014 pour qu’une femme rejoigne l’ONU. Il s’agit de Kristin Lund, qui est devenu la première femme à la tête d'une force des Nations Unies. Les films étaient donc en avance sur le fait qu’une femme siège dans la direction d’une grande ampleur.</p>
+        <h3>La trilogie de Disney</h3>
+        <p>En 2015 sort le premier film de cette trilogie, et le personnage principal est une femme. Rey, incarné par Daisy Ridley, se retrouve à devoir sauver la galaxie, tout en découvrant le potentiel qu’elle a. L’héroïne devient la première femme Jedi depuis 30 ans, puis à la fin de la trilogie, la dernière Jedi. Le fait de rendre l’unité des Jedis dans une femme montre que le genre n’influe pas sur la force.<br>
+            <br>
+            Pour conclure, la saga Star Wars contient aussi des séries qui mettent aussi en avant les femmes par leur façon de se battre. La franchise en ramène plein, montrant que l’égalité est méritée, voir nécessaire.
+        </p>
+        <p class="autor">Thomas MEURIE, le 23 octobre 2021</p>
+        <div class="switch_article">
+            <a href="emma_watson.html" class="switch_previous"><p><< Article<br>précédent</p></a>
+            <a href="" class="switch_next"><p></p></a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer_text">
+            <a href="about_and_contact.html"><p>À propos/Contact</p></a>
+            <p>Ce site a été réalisé dans le cadre d’un projet universitaire</p>
+        </div>
+        <div class="footer_logo">
+            <img class="footer_logo_afw" src="../public/icon/logo_allforwords.svg" alt="Logo de All for Words">
+            <a href="http://mmimontbeliard.com/"><img src="../public/icon/icon_MMI.webp" alt="Lien vers l'IUT MMI"></a>
+        </div>
+    </footer>
+</body>
+</html>

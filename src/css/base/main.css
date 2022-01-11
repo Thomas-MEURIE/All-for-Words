@@ -85,10 +85,10 @@ p {
   padding: 0;
 }
 
-.entete_acceuil {
+.entete_accueil {
   text-align: center;
   width: 100%;
-  background-image: url("../../../public/img/Acceuil.webp");
+  background-image: url("../../../public/img/accueil.webp");
   background-repeat: no-repeat;
   background-position-y: -50px;
   background-size: 100%;
